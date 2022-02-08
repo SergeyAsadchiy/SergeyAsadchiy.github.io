@@ -11,11 +11,6 @@
 </head>
 <body>
 <br>
-type="password" inputmode="numeric"<br>
-<input type="password" inputmode="numeric"><br><br>
-type="password" inputmode="tel"<br>
-<input type="password" inputmode="tel" /><br><br>
----<br>
 inputmode="numeric"<br>
 <input  inputmode="numeric"><br><br>
 inputmode="tel"<br>
@@ -23,7 +18,8 @@ inputmode="tel"<br>
   
   //---<br>
 type="tel"<br>
-<input type="number"><br><br>
+<input type="number" pattern="/\d/"><br><br>
+<input type="number" pattern="/\d/" inputmode="tel"><br><br>
   //223
 </body>
 </html>
