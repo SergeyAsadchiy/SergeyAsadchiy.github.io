@@ -1,25 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/noppa/text-security/master/dist/text-security.css">
-<style>
-     input {
-       color: green;
-       // font-family: "text-security-disc";
-     }
-</style>
 </head>
 <body>
-<br>
-inputmode="numeric"<br>
-<input  inputmode="numeric"><br><br>
-inputmode="tel"<br>
-<input  inputmode="tel" /><br><br>
-  
-  //---<br>
-type="tel"<br>
-<input type="number" pattern="/\d/"><br><br>
-<input type="number" pattern="/\d/" inputmode="tel"><br><br>
-  //223
+<div id="app"></div>
+<script>
+    const el = document.getElementById('app')
+        el.innerText = window.navigator.userAgent
+        el.style.fontSize = 18
+</script>
 </body>
 </html>
